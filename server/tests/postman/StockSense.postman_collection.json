@@ -1,0 +1,58 @@
+{
+  "info": {
+    "name": "StockSense API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Products",
+      "item": [
+        {
+          "name": "Get All Products",
+          "request": {
+            "method": "GET",
+            "url": "{{BASE_URL}}/api/products"
+          }
+        },
+        {
+          "name": "Get Product Sales",
+          "request": {
+            "method": "GET",
+            "url": "{{BASE_URL}}/api/products/:id/sales"
+          }
+        },
+        {
+          "name": "Get Product Forecast",
+          "request": {
+            "method": "GET",
+            "url": "{{BASE_URL}}/api/products/:id/forecast"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dashboard",
+      "item": [
+        {
+          "name": "Get Stock Alerts",
+          "request": {
+            "method": "GET",
+            "url": "{{BASE_URL}}/api/dashboard/alerts"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Inventory",
+      "item": [
+        {
+          "name": "Get Inventory Summary",
+          "request": {
+            "method": "GET",
+            "url": "{{BASE_URL}}/api/inventory/summary"
+          }
+        }
+      ]
+    }
+  ]
+}

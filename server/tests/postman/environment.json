@@ -1,0 +1,10 @@
+{
+  "name": "StockSense Local",
+  "values": [
+    {
+      "key": "BASE_URL",
+      "value": "http://localhost:5000",
+      "enabled": true
+    }
+  ]
+}
